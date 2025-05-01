@@ -1,0 +1,24 @@
+# Ignore .env in backend
+/shadow-backend/.env
+
+# Optional: Ignore all .env files in any subfolder
+**/.env
+
+# Node modules and build artifacts
+node_modules/
+dist/
+build/
+
+# Rust target directory (if you're using Rust)
+/shadow/target/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
