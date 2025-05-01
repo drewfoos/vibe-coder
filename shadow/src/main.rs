@@ -61,7 +61,7 @@ const HOTKEY_ID_RESIZE_SMALLER: i32 = 10; // Ctrl+Minus
 
 
 // Placeholder for your proxy server URL - REPLACE THIS!
-const PROXY_SERVER_URL: &str = "http://192.168.1.239:3000/process-image"; // Corrected URL with path
+const PROXY_SERVER_URL: &str = "http://127.0.0.1:3000/process-image"; // Corrected URL with path
 
 // Struct for the JSON payload to send to the proxy
 #[derive(Serialize)]

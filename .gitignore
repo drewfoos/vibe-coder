@@ -22,3 +22,6 @@ __pycache__/
 Thumbs.db
 .vscode/
 .idea/
+
+# Remove computer screenshot
+shadow/screenshot.bmp
